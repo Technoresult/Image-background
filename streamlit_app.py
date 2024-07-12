@@ -6,7 +6,7 @@ import io
 
 def main():
     st.title("Image Background Remover")
-    st.write("Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/")
+    st.write("Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)")
     
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
     
